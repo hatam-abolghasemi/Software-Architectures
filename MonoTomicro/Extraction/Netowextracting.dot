@@ -1,0 +1,252 @@
+digraph "" {
+  graph [fontcolor="#000000", compound="true", bgcolor="#FFFFFF", style="rounded", rankdir="LR", ranksep="1.0", label="", fontname="Arial", fontsize="9", fillcolor="#afd870"];
+  node [fontcolor="#000000", height="0.0", compound="true", style="filled", color="grey", width="0.0", fixedsize="false", shape="rectangle", label="", fontname="Arial", fontsize="9", node_initialized="no", fillcolor="#ffffff"];
+  edge [fontcolor="#000000", dir="forward", compound="true", arrowtail="none", arrowsize="0.5", color="black", ltail="", arrowhead="normal", lhead="", label="", fontname="Arial", fontsize="9"];
+  subgraph "cluster_2" {
+    graph [fontcolor="#afd870", label="Directory Structure &#9655;", color="#afd870"];
+    subgraph "cluster_3" {
+      graph [fontcolor="#fcad56", label="src &#9655;", color="#fcad56"];
+      subgraph "cluster_4" {
+        graph [fontcolor="#569f38", label="&#9655; aspects.py &#9654;\n", color="#569f38"];
+        __N5 [shape="none", label="", style="invis,none"];
+        __N13 [shape="note", label="&#9654; _create_function &#9654;\n", style="filled", color="#90c4e4"];
+        __N16 [shape="note", label="generator_middleman &#9654;\n", style="filled", color="#90c4e4"];
+        __N20 [shape="note", label="generator_advice \n", style="filled", color="#90c4e4"];
+        __N21 [shape="note", label="method \n", style="filled", color="#90c4e4"];
+        __N23 [shape="note", label="&#9654; _find_wrap &#9654;\n", style="filled", color="#90c4e4"];
+        __N25 [shape="note", label="&#9654; _names_mce &#9654;\n", style="filled", color="#90c4e4"];
+        __N26 [shape="note", label="method \n", style="filled", color="#90c4e4"];
+        __N27 [shape="note", label="_proceed_method &#9654;\n", style="filled", color="#90c4e4"];
+        __N28 [shape="note", label="_proceed_stack_method &#9654;\n", style="filled", color="#90c4e4"];
+        __N32 [shape="note", label="_remove_proceed_stack &#9654;\n", style="filled", color="#90c4e4"];
+        __N34 [shape="note", label="&#9654; _with_wrap &#9654;\n", style="filled", color="#90c4e4"];
+        __N39 [shape="note", label="_create_middleman \n", style="filled", color="#90c4e4"];
+        __N40 [shape="note", label="replace_method \n", style="filled", color="#90c4e4"];
+        __N44 [shape="note", label="&#9655; disable_wrap &#9654;\n", style="filled", color="#90c4e4"];
+        __N45 [shape="note", label="&#9655; enable_wrap &#9654;\n", style="filled", color="#90c4e4"];
+        __N46 [shape="note", label="&#9655; peel_around &#9654;\n", style="filled", color="#90c4e4"];
+        __N47 [shape="note", label="&#9655; wrap_count &#9654;\n", style="filled", color="#90c4e4"];
+        __N48 [shape="note", label="&#9655; with_wrap &#9654;\n", style="filled", color="#90c4e4"];
+        __N53 [shape="note", label="&#9655; without_wrap &#9654;\n", style="filled", color="#90c4e4"];
+        __N54 [shape="note", label="&#9655; wrap_around &#9654;\n", style="filled", color="#90c4e4"];
+        __N56 [shape="note", label="&#9655; wrap_around_re &#9654;\n", style="filled", color="#90c4e4"];
+        __N60 [shape="note", label="&#9655; wrap_is_enabled &#9654;\n", style="filled", color="#90c4e4"];
+        __N16 -> __N20 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N16 -> __N21 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N27 -> __N26 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N34 -> __N39 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N34 -> __N40 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N44 -> __N23 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N44 -> __N25 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N45 -> __N23 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N45 -> __N25 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N46 -> __N47 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N48 -> __N34 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N54 -> __N13 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N54 -> __N25 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N54 -> __N47 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N56 -> __N54 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N60 -> __N23 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        __N60 -> __N25 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+      }
+      subgraph "cluster_8" {
+        graph [fontcolor="#569f38", label="examples &#9655;", color="#569f38"];
+        subgraph "cluster_9" {
+          graph [fontcolor="#e45721", label="&#9655; timeout_advice.py &#9655;\n", color="#e45721"];
+          __N10 [shape="note", label="&#9655; create_timeout_advice &#9655;\n", style="filled", color="#90c4e4"];
+          __N61 [shape="note", label="&#9654; _create_function &#9655;\n", style="filled", color="#90c4e4"];
+          __N62 [shape="box3d", label="_Thread_return_stop_holder \n", style="filled", color="#90c4e4"];
+          __N63 [shape="note", label="timeout_2s_catch &#9655;\n", style="filled", color="#90c4e4"];
+          __N64 [shape="note", label="&#9654; _wait_timeout &#9655;\n", style="filled", color="#90c4e4"];
+          __N113 [shape="note", label="save_retval &#9655;\n", style="filled", color="#90c4e4"];
+          __N10 -> __N61 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+          __N63 -> __N62 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+          __N63 -> __N64 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+        }
+        subgraph "cluster_77" {
+          graph [fontcolor="#e45721", label="typecheck_advice.py &#9655;\n", color="#e45721"];
+          __N78 [shape="note", label="argtypecheck &#9655;\n", style="filled", color="#90c4e4"];
+        }
+        subgraph "cluster_79" {
+          graph [fontcolor="#e45721", label="tracer_example.py &#9655;\n", color="#e45721"];
+          __N80 [shape="none", label="", style="invis,none"];
+        }
+        subgraph "cluster_115" {
+          graph [fontcolor="#e45721", label="timeout_example.py &#9655;\n", color="#e45721"];
+          subgraph "cluster_119" {
+            graph [fontcolor="#afd870", label="Example &#9655;\n", color="#afd870"];
+            __N120 [shape="note", label="&#9655; wait &#9655;\n", style="filled", color="#90c4e4"];
+          }
+          __N116 [shape="none", label="", style="invis,none"];
+        }
+        __N11 [shape="box3d", label="httpget_example.py &#9655;\n", style="filled", color="#90c4e4"];
+        __N91 [shape="box3d", label="tracer_advice.py \n", style="filled", color="#90c4e4"];
+        __N124 [shape="box3d", label="typecheck_example.py &#9655;\n", style="filled", color="#90c4e4"];
+        __N11 -> __N10 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+      }
+      subgraph "cluster_65" {
+        graph [fontcolor="#569f38", label="test &#9655;", color="#569f38"];
+        subgraph "cluster_66" {
+          graph [fontcolor="#e45721", label="testlib_with_wrap.py &#9655;\n", color="#e45721"];
+          subgraph "cluster_75" {
+            graph [fontcolor="#afd870", label="do &#9655;\n", color="#afd870"];
+            __N76 [shape="note", label="w_do &#9655;\n", style="filled", color="#90c4e4"];
+            __N123 [shape="note", label="&#9655; m_do &#9655;\n", style="filled", color="#90c4e4"];
+          }
+          subgraph "cluster_83" {
+            graph [fontcolor="#afd870", label="do &#9655;\n", color="#afd870"];
+            __N84 [shape="note", label="&#9655; m_do &#9655;\n", style="filled", color="#90c4e4"];
+            __N128 [shape="note", label="w_do &#9655;\n", style="filled", color="#90c4e4"];
+          }
+          __N67 [shape="note", label="g_adv_fixsq &#9655;\n", style="filled", color="#90c4e4"];
+          __N70 [shape="note", label="w4 &#9655;\n", style="filled", color="#90c4e4"];
+          __N72 [shape="note", label="w2 &#9655;\n", style="filled", color="#90c4e4"];
+          __N73 [shape="note", label="g_adv2 &#9655;\n", style="filled", color="#90c4e4"];
+          __N86 [shape="note", label="adv &#9655;\n", style="filled", color="#90c4e4"];
+          __N87 [shape="note", label="w1 &#9655;\n", style="filled", color="#90c4e4"];
+          __N88 [shape="note", label="adv &#9655;\n", style="filled", color="#90c4e4"];
+          __N89 [shape="note", label="g_adv &#9655;\n", style="filled", color="#90c4e4"];
+          __N90 [shape="note", label="w3 &#9655;\n", style="filled", color="#90c4e4"];
+          __N92 [shape="note", label="g_adv &#9655;\n", style="filled", color="#90c4e4"];
+          __N93 [shape="note", label="g_adv &#9655;\n", style="filled", color="#90c4e4"];
+          __N94 [shape="note", label="&#9655; fib &#9655;\n", style="filled", color="#90c4e4"];
+          __N96 [shape="note", label="w &#9655;\n", style="filled", color="#90c4e4"];
+          __N97 [shape="note", label="g_adv2 &#9655;\n", style="filled", color="#90c4e4"];
+          __N98 [shape="note", label="g_adv_fixmul &#9655;\n", style="filled", color="#90c4e4"];
+          __N99 [shape="note", label="g_adv2 &#9655;\n", style="filled", color="#90c4e4"];
+          __N101 [shape="note", label="g_adv &#9655;\n", style="filled", color="#90c4e4"];
+          __N102 [shape="none", label="", style="invis,none"];
+          __N103 [shape="note", label="g_adv &#9655;\n", style="filled", color="#90c4e4"];
+          __N104 [shape="note", label="offbyone &#9655;\n", style="filled", color="#90c4e4"];
+          __N105 [shape="note", label="w1 &#9655;\n", style="filled", color="#90c4e4"];
+          __N106 [shape="box3d", label="c \n", style="filled", color="#90c4e4"];
+          __N107 [shape="note", label="g_adv1 &#9655;\n", style="filled", color="#90c4e4"];
+          __N108 [shape="note", label="w3 &#9655;\n", style="filled", color="#90c4e4"];
+          __N109 [shape="note", label="add2 &#9655;\n", style="filled", color="#90c4e4"];
+          __N110 [shape="note", label="g_adv1 &#9655;\n", style="filled", color="#90c4e4"];
+          __N111 [shape="note", label="g_adv &#9655;\n", style="filled", color="#90c4e4"];
+          __N112 [shape="note", label="adv2 &#9655;\n", style="filled", color="#90c4e4"];
+          __N114 [shape="note", label="adv2 &#9655;\n", style="filled", color="#90c4e4"];
+          __N117 [shape="note", label="g_adv &#9655;\n", style="filled", color="#90c4e4"];
+          __N121 [shape="note", label="w2 &#9655;\n", style="filled", color="#90c4e4"];
+          __N122 [shape="note", label="add4 &#9655;\n", style="filled", color="#90c4e4"];
+          __N125 [shape="note", label="adv1 &#9655;\n", style="filled", color="#90c4e4"];
+          __N126 [shape="note", label="wrap &#9655;\n", style="filled", color="#90c4e4"];
+        }
+        subgraph "cluster_68" {
+          graph [fontcolor="#e45721", label="test_aspects.py &#9655;\n", color="#e45721"];
+          __N69 [shape="note", label="adv2 \n", style="filled", color="#90c4e4"];
+          __N71 [shape="note", label="bb &#9655;\n", style="filled", color="#90c4e4"];
+          __N74 [shape="note", label="aa &#9655;\n", style="filled", color="#90c4e4"];
+          __N85 [shape="none", label="", style="invis,none"];
+          __N95 [shape="note", label="adv1 \n", style="filled", color="#90c4e4"];
+          __N100 [shape="note", label="extra_noarg \n", style="filled", color="#90c4e4"];
+          __N118 [shape="box3d", label="C \n", style="filled", color="#90c4e4"];
+          __N127 [shape="note", label="extra \n", style="filled", color="#90c4e4"];
+        }
+        subgraph "cluster_81" {
+          graph [fontcolor="#e45721", label="test_with_wrap.py &#9655;\n", color="#e45721"];
+          __N82 [shape="none", label="", style="invis,none"];
+        }
+      }
+      __N7 [shape="box3d", label="setup.py &#9655;\n", style="filled", color="#90c4e4"];
+    }
+    subgraph "cluster_41" {
+      graph [fontcolor="#fcad56", label="&#9655; lib ", color="#fcad56"];
+      subgraph "cluster_42" {
+        graph [fontcolor="#569f38", label="&#9654; inspect.py \n", color="#569f38"];
+        __N43 [shape="note", label="getmodule \n", style="filled", color="#90c4e4"];
+      }
+      subgraph "cluster_58" {
+        graph [fontcolor="#569f38", label="&#9654; re.py \n", color="#569f38"];
+        __N59 [shape="note", label="compile \n", style="filled", color="#90c4e4"];
+      }
+    }
+    __N34 -> __N43 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+    __N56 -> __N59 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  }
+  __N1 [shape="note", label="allocate_lock \n", style="filled", color="#90c4e4"];
+  __N6 [shape="box3d", label="str \n", style="filled", color="#90c4e4"];
+  __N12 [shape="note", label="compile \n", style="filled", color="#90c4e4"];
+  __N14 [shape="note", label="eval \n", style="filled", color="#90c4e4"];
+  __N15 [shape="note", label="id \n", style="filled", color="#90c4e4"];
+  __N17 [shape="box3d", label="str \n", style="filled", color="#90c4e4"];
+  __N18 [shape="note", label="type \n", style="filled", color="#90c4e4"];
+  __N19 [shape="note", label="next \n", style="dotted", color="#8f8f8f"];
+  __N22 [shape="note", label="getattr \n", style="filled", color="#90c4e4"];
+  __N24 [shape="note", label="hasattr \n", style="filled", color="#90c4e4"];
+  __N29 [shape="note", label="setattr \n", style="filled", color="#90c4e4"];
+  __N30 [shape="note", label="get_ident \n", style="filled", color="#90c4e4"];
+  __N31 [shape="note", label="delattr \n", style="filled", color="#90c4e4"];
+  __N33 [shape="note", label="__import__ \n", style="filled", color="#90c4e4"];
+  __N35 [shape="box3d", label="set \n", style="filled", color="#90c4e4"];
+  __N36 [shape="note", label="__setitem__ \n", style="dotted", color="#8f8f8f"];
+  __N37 [shape="note", label="acquire \n", style="dotted", color="#8f8f8f"];
+  __N38 [shape="note", label="release \n", style="dotted", color="#8f8f8f"];
+  __N49 [shape="note", label="len \n", style="filled", color="#90c4e4"];
+  __N50 [shape="note", label="append \n", style="dotted", color="#8f8f8f"];
+  __N51 [shape="note", label="get \n", style="dotted", color="#8f8f8f"];
+  __N52 [shape="note", label="isinstance \n", style="filled", color="#90c4e4"];
+  __N55 [shape="note", label="callable \n", style="filled", color="#90c4e4"];
+  __N57 [shape="note", label="dir \n", style="filled", color="#90c4e4"];
+  __N5 -> __N1 [color="#4e8cb9", dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", ltail="cluster_4"];
+  __N7 -> __N6 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N13 -> __N12 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N13 -> __N14 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N16 -> __N15 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N16 -> __N17 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N16 -> __N18 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N16 -> __N19 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N23 -> __N22 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N25 -> __N24 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N25 -> __N17 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N28 -> __N22 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N28 -> __N29 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N28 -> __N17 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N28 -> __N30 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N32 -> __N31 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N32 -> __N17 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N32 -> __N30 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N34 -> __N33 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N34 -> __N22 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N34 -> __N24 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N34 -> __N15 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N34 -> __N35 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N34 -> __N29 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N34 -> __N18 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N34 -> __N36 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N34 -> __N37 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N34 -> __N38 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N44 -> __N24 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N44 -> __N29 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N45 -> __N24 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N45 -> __N29 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N46 -> __N22 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N46 -> __N24 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N46 -> __N29 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N46 -> __N17 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N46 -> __N37 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N46 -> __N38 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N48 -> __N22 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N48 -> __N49 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N48 -> __N50 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N48 -> __N51 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N53 -> __N52 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N53 -> __N37 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N53 -> __N38 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N54 -> __N22 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N54 -> __N24 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N54 -> __N15 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N54 -> __N49 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N54 -> __N35 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N54 -> __N29 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N54 -> __N17 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N54 -> __N37 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N54 -> __N38 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N56 -> __N55 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N56 -> __N57 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N56 -> __N22 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N47 -> __N24 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N60 -> __N22 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+  __N60 -> __N24 [dir="forward", arrowhead="normal", arrowtail="none", label="", style="solid", color="#4e8cb9"];
+}
